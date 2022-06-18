@@ -1,28 +1,129 @@
 body{
   margin:auto;
   text-align: center;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Arial',sans-serif;
+  background-color: #FFF5EE;
+  color: #40514E;
 }
 
 h1{
-  margin-top: 0;
+  font-size: 500%;
+  font-family: 'Indie Flower', cursive;
+  margin-top: 50px;
+  line-height: 0.8;
 }
 
+h2{
+  font-size:2rem;
+  color:#DCAAAA;
+  font-weight: normal;
+}
+
+h3{
+  color:#51414F;
+}
+
+p{
+  line-height: 2;
+}
+
+hr{
+  border: dotted #909497 6px;
+  width: 3%;
+  border-bottom: none;
+  margin: 100px auto;
+}
+
+a{
+  color: #673147;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#e0699a;
+}
 
 .top-container{
-  background-color: #FDEDEC;
+  background-color: #FFF5EE;
   position:relative;
   padding-top:100px;
 }
 
+.middle-container{
+  background-color: #FFF5EE;
+  margin: 100px 0;
+}
+
 .top-cloud{
+  width:150px;
   position:absolute;
   right:300px;
   top:50px;
 }
 
 .bottom-cloud{
+  width:150px;
   position:absolute;
   left:300px;
   bottom:300px;
+}
+
+.skill-row{
+  width:50%;
+  margin:100px auto 100px auto;
+  text-align:left;
+  line-height: 2;
+}
+
+.skill-text{
+  padding-top: 20px;
+}
+.skill-textr{
+  padding-top: 10px;
+  text-align: right;
+}
+.skill-icon1{
+  float:left;
+  width:20%;
+  margin-right: 30px;
+}
+
+.skill-icon2{
+  float:right;
+  width:20%;
+  margin-left: 30px;
+}
+.skill-icon3{
+  float:left;
+  width:20%;
+  margin-right: 30px;
+}
+
+.skill-title{
+  display:inline;
+}
+
+
+.introtext{
+  width: 30%;
+  margin:auto;
+}
+
+.bottom-container{
+  padding:50px 0 20px;
+  background-color: #FDEDEC;
+  margin-top: 0;
+}
+
+.contacttext{
+  width:30%;
+  margin:40px auto 60px;
+}
+
+
+.copyright{
+  color: #aaaaaa;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
